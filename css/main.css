@@ -1,0 +1,1154 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.banner
+{
+    width: 100%;
+    height: 500px;
+    margin:0px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: fixed;
+    background-attachment: center;
+}
+.banner_wrapper{
+    width: 1000px;
+    height: 500px;
+    margin: 0px auto;
+}
+.header_wrapper{
+    width: 1000px;
+    height: 60px;
+    margin: 0px auto;
+    border-bottom: 1px solid gray;
+}
+.menu{
+    width: 700px;
+    height: 40px;
+    margin: 10px 0;
+    float: left;
+}
+.menu ul{
+    list-style: none;
+      margin: 0px;
+    padding: 0;
+}
+.menu ul li {
+        display: inline; 
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    width: 108.66px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info{
+    width: 220px;
+    height: 40px;
+    margin: 10px 0;
+    float: right;
+    color: #fff;
+    line-height: 40px;
+}
+
+
+.travel_info
+{
+    width: 530px;
+    height: 220px;
+    margin: 60px auto;
+}
+.travel_info h2
+{
+    font-size: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.travel_info p
+{
+    font-size:20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.trip
+{
+    width: 224px;
+    height: 50px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 20px;
+    background-color: #FBAD27;
+    margin-left: 153px;
+    margin-top: 18px;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.video_bar
+{
+    width: 150px;
+    height: 55px;
+    margin: 0px;
+    float: left;
+}
+.video_bar p
+{
+     margin: 0;
+     float: right;
+     font-size: 18px;
+     padding-top: 5px;
+     color: #fff;
+     font-family: 'Roboto', sans-serif;
+}
+.fusion_intro
+{
+    background-color: #FFFFFF;
+    margin: 0px;
+    overflow: hidden;
+}
+.fusion_intro_wrapper
+{
+    width: 1000px;
+    height: 250px;
+    margin: 0 auto;
+}
+.fusion_intro_wrapper h2
+{
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+    font-size:30px;
+    color:#4A4A4A;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fusion_intro_wrapper p
+{
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    color:#4A4A4A;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*container*/
+.container
+{
+    background-color: #fff;
+}
+.container_wrapper
+{
+    width: 1000px;
+    height: 250px;
+    margin:0px auto;
+    overflow: hidden;
+}
+
+.Price_style
+{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 0;
+}
+
+.Price_style i
+{
+    color:#FFA600;
+}
+.Price_style h4
+{
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.Price_style p
+{
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+/*travel_style*/
+.travel_style
+{
+    width:300px;
+    height:200px;
+    float:left;
+    margin:0;
+    margin-left: 33.33px;
+}
+
+.travel_style i
+{
+    color:#FFA600;
+}
+.travel_style h4
+{
+    margin: 0;
+    font-size: 18px;
+}
+.travel_style p
+{
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*trust_style*/
+
+.trust_style
+{
+    width: 300px;
+    height:200px;
+    float:right;
+    margin: 0;
+}
+.trust_style i
+{
+    color:#FFA600;
+}
+.trust_style h4
+{
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.trust_style p
+{
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*icon*/
+
+.icon
+{
+    width: 80px;
+    height: 20px;
+    margin: 50px auto;
+}
+.icon i
+{
+    color:#999999;
+}
+.icon i .active
+{
+    color:#ffa600;
+}
+/*content_container*/
+.content_container{
+    background-color: #fff;
+}
+.content_wrapper{
+    width: 1000px;
+    height: 974px;
+    margin:0 auto;
+}
+.content_title{
+    width: 1000px;
+    height: 110px;
+    margin: 0;
+}
+.content_title h1
+{
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.content_title p
+{
+    text-align: center;
+    font-size:20px;
+    font-weight:300;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.search_bar
+{
+    width:230px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.srcBar{
+    width: 194px;
+    height: 30px;
+    margin: 2px 0;
+    outline: none;
+    border: 0;
+    float: right;
+    border: 2px solid #fff;
+}
+.Btn_sub{
+    width: 30px;
+    height: 36px;
+    border: 0;
+    position: absolute;
+    top: 2px;
+    text-align: center;
+    left: 3px;
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.wrapper
+{
+    width: 1000px;
+    height:800px;
+    margin: 0;
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+}
+.left-arrow
+{
+    width: 50px;
+    height:690px;
+    margin: 0;
+    float: left;
+}
+.left-arrow i
+{
+    margin: 354px 0px;
+    color:#FBAD27; 
+}
+.right-arrow
+{
+    width: 50px;
+    height:690px;
+    margin: 0;
+    float:right;
+}
+
+.right-arrow i
+{
+    margin: 354px 20px;
+    color:#B8B8B8; 
+}
+.country
+{
+    width: 900px;
+    height: 800px;
+    margin:50px 0;
+    float: left;
+}
+.wrapper_content
+{
+    width: 1000px;
+    height: 850px;
+    margin:50px 0;
+}
+.thailand{
+    width: 250px;
+    height: 300px;
+    margin: 0;
+    float: left;
+    background-image: url(../img/Fusion.jpg);
+    background-repeat: no-repeat;
+}
+.thailand h3
+{
+    text-align: center;
+    font-size: 24x;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.australia{
+    width: 250px;
+    height: 300px;
+    margin:0;
+    float: left;
+    margin-left:50px;
+    background-image: url(../img/Fusion.jpg);
+    background-repeat: no-repeat;
+}
+.australia h3
+{
+    text-align: center;
+    font-size: 24x;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.indonesia{
+    width: 250px;
+    height: 300px;
+    margin: 0;
+    float:right;
+    background-image: url(../img/Fusion.jpg);
+    background-repeat: no-repeat;
+}
+.indonesia h3
+{
+    text-align: center;
+    font-size: 24x;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.france{
+    width: 250px;
+    height: 300px;
+    margin: 40px 0;
+    float: left;
+    background-image: url(../img/Fusion.jpg);
+    background-repeat: no-repeat;
+}
+.france h3
+{
+    text-align: center;
+    font-size: 24x;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.malaysia{
+    width: 250px;
+    height: 300px;
+    margin: 40px 0;
+    float: left;
+    margin-left: 50px;
+    background-image: url(../img/Fusion.jpg);
+    background-repeat: no-repeat;
+}
+.malaysia h3
+{
+    text-align: center;
+    font-size: 24x;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.uae{
+    width: 250px;
+    height: 300px;
+     margin: 40px 0;
+    float:right;
+    background-image: url(../img/Fusion.jpg);
+    background-repeat: no-repeat;
+}
+
+.uae h3
+{
+    text-align: center;
+    font-size: 24x;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*news_blog*/
+
+.news_blog
+{
+    background-color: #fff;
+    margin: 0;
+    overflow: hidden;
+}
+.news_blog_wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    height: 730px;
+    border-bottom: 1px solid gray;
+}
+.news_blog_wrapper h2
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.news_blog_wrapper p
+{
+    text-align: center;
+    font-size:20px;
+    font-weight:400;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left_wrapper
+{
+    width:700px;
+    height:450px;
+    margin:40px 0; 
+    float:left;
+}
+/*box_style*/
+
+.box_style{
+    width: 450px;
+    height: 300px;
+    margin: 0;
+    float: left;
+    background:red;
+    background-repeat: no-repeat;
+}
+
+/*liberty*/
+
+.liberty{
+    width: 230px;
+    height: 300px;
+    margin: 0;
+    float: left;
+    margin-left: 20px;
+}
+.liberty h4{
+   font-size:16px;
+    font-weight: bold;
+    color: #333;
+    margin:10px 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.liberty p{
+   font-size:16px;
+    font-weight:300;
+    color: #333;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*liberty2*/
+.liberty2{
+    width: 450px;
+    height:166px;
+    margin:20px 0;
+    float: left;
+}
+
+.liberty2_text{
+    width:220px;
+    height:166px;
+    float: left;
+    margin: 0;
+}
+
+.liberty2 h4
+{
+    font-size:18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.liberty2 p
+{
+    font-size: 16px;
+    font-weight:300;
+    color: #333;
+    margin: 0;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product{
+    width: 230px;
+    height:166px;
+    margin: 20px 0px;
+    float: left;
+    margin-left: 20px;
+    background-image: url(../img/fusion2.jpg);
+    background-repeat: no-repeat;
+}
+
+
+/*right_wrapper*/
+
+.right_wrapper
+{
+    width: 230px;
+    height: 450px;
+    margin:40px 0;
+    float:right;
+}
+
+
+.product2{
+    width: 230px;
+    height:166px;
+    margin: 0px 0px;
+    float: left;
+    background-image: url(../img/fusion2.jpg);
+    background-repeat: no-repeat;
+}
+
+.natural
+{
+    width: 230px;
+    height: 280px;
+    margin: 40px 0;
+    float:left;
+}
+
+.natural h4
+{
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+.natural p
+{
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*read*/
+.read{
+    width: 230px;
+    height: 45px;
+    margin:30px 0;
+    border-radius: 20px;
+    background-color:#FBAD27;
+    border:0;
+    margin-left: 385px;
+    color:#fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*testimonial*/
+
+.testimonial
+{
+    background-color:#fff;
+    margin: 0;
+    overflow: hidden;
+}
+.testimonial_wrap{
+    width: 1000px;
+    height:500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.testimonial_wrap h2
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.testimonial_wrap p
+{
+    font-size: 20px;
+    font-weight:300;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.testimonial_content{
+    width: 800px;
+    height: 250px;
+    margin: 25px auto;
+}
+.client_img{
+    width: 179px;
+    height: 187px;
+    margin: 0;
+    float: left;
+}
+.feedback
+{
+    width: 600px;
+    height: 187px;
+    margin: 0;
+    float:right;
+}
+.feedback p
+{
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+.name
+{
+    font-size: 14px;
+    color: #333;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.icon_second
+{
+    width: 80px;
+    height: 20px;
+    margin:50px auto;
+}
+.icon_second i
+{
+    color:#999999;
+}
+.icon_second i .active
+{
+    color:#ffa600;
+}
+
+/*discount*/
+
+.discount 
+{
+    background-color: #FBAD27;
+    height:250px;
+    margin: 0;
+    overflow: hidden;
+}
+.discount_wrapper
+{
+    width: 1000px;
+    height: 200px;
+    margin: 25px auto;
+}
+
+.discount_wrapper h2
+{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    line-height:150px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.book
+{
+    width: 225px;
+    height: 50px;
+    float: right;
+    outline: none;
+    margin: 75px 0;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: #fff;
+}
+
+/*footer*/
+footer{
+        background-color:#fff; 
+}
+.footer_wrapper{
+  width: 1000px;
+  height: 200px;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+}
+
+.aboutus{
+    width: 200px;
+    height: 200px;
+    margin: 0 66.66px 0 0px;
+    float: left;
+}
+.aboutus a
+{
+    text-decoration: none;
+    color:#4A4A4A;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.address{
+    width: 200px;
+    height: 200px;
+    margin: 0 50px 0 0;
+    float: left;
+}
+.address p{
+    color:#4A4A4A;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.contactus{
+    width: 200px;
+    height: 200px;
+    margin: 0 0px 0 0;
+    float: left;
+}
+.contactus p{
+    color:#4A4A4A;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.follow_us{
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    float:right;
+}
+#social{
+    color: white;
+    font-size: 20px;
+    margin-left: 13px;
+    margin-top: 10px;
+    transition: 2s;
+
+}
+#social:hover
+{
+    transform: rotate(180deg) scale(.8);
+}
+.twitter{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    float: left;
+    background-color:#616161;
+    border-radius: 50%;
+    transition: 2s;
+}
+
+.fb{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    float: left;
+    margin-left: 10px;
+    background-color:#616161;
+    border-radius: 50%;
+    transition: 2s;
+}
+.insta{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    float: left;
+    margin-left: 10px;
+    background-color:#616161;
+    border-radius: 50%;
+    transition: 2s;
+}
+.twitter:hover
+{
+    background-color: #FBAD27;
+}
+
+.fb:hover
+{
+    background-color: #FBAD27;
+}
+.insta:hover
+{
+    background-color: #FBAD27;
+}
+
+.title_name
+{
+    font-size: 20px;
+    font-weight: bold;
+    color:#4A4A4A;
+    font-family: 'Roboto', sans-serif;
+}
+
+.copyright
+{
+    background-color: #fff;
+}
+.copyright_wrapper
+{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.copyright_wrapper p
+{
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
