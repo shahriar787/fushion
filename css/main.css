@@ -475,7 +475,7 @@ textarea {
     height: 300px;
     margin:0;
     float: left;
-    margin-left:50px;
+    margin-left:75px;
     background-image: url(../img/Fusion.jpg);
     background-repeat: no-repeat;
 }
@@ -521,7 +521,7 @@ textarea {
     height: 300px;
     margin: 40px 0;
     float: left;
-    margin-left: 50px;
+    margin-left:75px;
     background-image: url(../img/Fusion.jpg);
     background-repeat: no-repeat;
 }
